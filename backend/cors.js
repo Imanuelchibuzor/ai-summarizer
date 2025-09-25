@@ -3,8 +3,8 @@ const cors = require("cors");
 const corsOptions = {
   origin: [
     "http://localhost:3000",
-    "https://www.ai-summarizer.vercel.app",
-    "https://ai-summarizer.vercel.app",
+    "https://www.ai-file-summarizer.vercel.app",
+    "https://ai-file-summarizer.vercel.app",
   ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders:

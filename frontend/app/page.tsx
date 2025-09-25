@@ -123,7 +123,8 @@ export default function FileUploadPage() {
     setResult(null);
 
     try {
-      const server = "http://localhost:4000";
+      // const server = "http://localhost:4000"; // dev url
+      const server = "https://ai-summarizer-4zad.onrender.com" // production url
       const formData = new FormData();
       formData.append("file", file);
 
